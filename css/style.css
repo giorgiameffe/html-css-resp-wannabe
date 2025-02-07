@@ -138,9 +138,8 @@ img {
 
     .container {
         width: 100%;
-        text-align: center;
     }
-
+    
     .row {
         display: block;
     }
@@ -148,5 +147,10 @@ img {
     .container .row > .col {
         width: 100%;
     }
-    
+}
+
+@media screen and  (min-width: 768px) and (max-width: 1160px) {
+    .container {
+        width: 100%;
+    }
 }
